@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Mini Project UTS Prak SIGWEB Kelompok 9</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/img/logo.jpeg" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <style>
+        .custom-button {
+            background-color: #0e4783; /* Warna latar belakang tombol */
+            color: #fff; /* Warna teks tombol */
+            width: 150px; /* Lebar tombol */
+            height: 50px; /* Tinggi tombol */
+            border: none;
+            border-radius: 5px; /* Sudut tombol dibulatkan */
+            font-size: 16px;
+            cursor: pointer;
+          }
+        
+          .button-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            } /* Menempatkan tombol di tengah halaman vertikal */
+            .iframe-container{
+                text-align: center;
+            }
+            .nav-item a:hover {
+  background-color:rgb(4, 188, 32);
+  }
+  button:hover {background-color:yellow;
+color:green;}
+#footer {
+    background-image: url('https://d2k52l910ymyzx.cloudfront.net/home/wp-content/uploads/2022/10/21144901/elemen-yang-harus-diterapkan-dalama-membuat-desain-banner-warmindo_6-inspirasi-desain-banner-warmindo-kekinian.jpg');
+    background-size: contain;
+}
+            .foottext h2 {  
+                color:white;
+                text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;}
+                .row {  
+                display: flex;
+                flex-wrap: wrap;
+                }
+                .kiri {
+                flex: 50%;
+                background-color:#f0593b;
+                padding: 20px;
+                }
+                .kanan {
+                flex: 50%;
+                background-color:#f1e233;
+                padding: 20px;
+                }
+          </style>
+              <style>
+                iframe {
+                    width: 550px; /* lebar iframe */
+                    height: 450px; /* tinggi iframe */
+                    border: none; /* Hilangkan border iframe */
+                    
+                }
+            </style>  
+              
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <button class="nav-item" style="background-color: green;"><a href="https://drive.google.com/drive/folders/1AVH9hj20_vwJxtM2jKN594242OxIJVS3?usp=drive_link" style="color:yellow"><b>Download Laporan Praktikum</b></a></button>
+                        <li class="nav-item"><a class="nav-link" href="#pengenalan" style="color:yellow"><b>Pengenalan</b></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio" style="color:yellow"><b>Anggota Kelompok</b></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#webmap" style="color:yellow"><b>Hasil Web Map</b></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#rekomendasi" style="color:yellow"><b>Rekomendasi Warmindo / Rumah Makan Padang</b></a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading" style="color:yellow">Landing Page Mini Project SIG WEB Kelompok 9</div>
+                <div class="masthead-heading text-uppercase" style="color:green">Selamat Datang ^_^</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#pengenalan" style="color:red">Ayo Jelajahi!</a>
+            </div>
+        </header>
+        <!-- Pengenalan-->
+        <section class="page-section" id="pengenalan">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Pengenalan</h2>
+                    <h3 class="section-subheading text-muted">Area Pogung memiliki karakteristik didominasi oleh kos-kosan 
+                        dikarenakan jaraknya yang dekat dengan kampus, sehingga menciptakan ekosistem yang cocok bagi para 
+                        mahasiswa.  Anggaran yang terbatas dan kesibukan sehari-hari mahasiswa yang mengakibatkan keterbatasan 
+                        waktu, membuat mahasiswa cenderung memilih untuk membeli makanan di luar. Warmindo (warung makan indomie) 
+                        menjadi salah satu pilihan karena harganya yang terjangkau dan variasi menunya yang beragam. Selain warmindo, 
+                        pilihan yang tidak kalah adalah Rumah Makan Padang dengan porsi yang banyak dan pilihan lauk yang beragam menjadikan 
+                        Rumah Makan Padang favorit bagi mahasiswa. Oleh karena itu, pemetaan ini dilakukan untuk membantu para mahasiswa 
+                        mencari referensi warmindo/tempat makan yang sesuai dengan selera dan budget mereka. Selain itu, informasi persebaran 
+                        lokasi warmindo dan tempat makan lain yaitu Rumah Makan Padang juga memberikan wawasan untuk 
+                        mengidentifikasi peluang bisnis sejenis di area tersebut.</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Tema Web Map</h4>
+                        <p class="text-muted">Kami memilih tema pemetaan tempat makan yaitu warmindo dan rumah makan padang.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Cakupan Area</h4>
+                        <p class="text-muted">Wilayah Pogung Kidul dan sekitarnya</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Objek yang dipetakan</h4>
+                        <p class="text-muted">Titik lokasi warmindo dan rumah makan Padang di wilayah 
+                            Pogung Kidul dan sekitarnya, jalur menuju tempat makan terdekat dan terjauh, 
+                            poligon bangunan Teknik Geodesi UGM, serta bangunan di wilayah Pogung Kidul dan sekitarnya.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Anggota Kelompok-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Anggota Kelompok</h2>
+                    <h3 class="section-subheading text-muted">Berikut identitas anggota kelompok 9</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Anggota Kelompok 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/anggota_kelompok/aldo.png" style="width:300px" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Rivaldo Putra</div>
+                                <div class="portfolio-caption-subheading text-muted">NIM: 21/473944/TK/52260</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Anggota Kelompok 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/anggota_kelompok/ruth.jpg" style="width:400px" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Ruth Nadya Putri Nugroho</div>
+                                <div class="portfolio-caption-subheading text-muted">NIM: 21/474384/TK/52338</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Anggota Kelompok 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/anggota_kelompok/wanda.jpg" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Wanda Wuri Handayani</div>
+                                <div class="portfolio-caption-subheading text-muted">NIM: 20/463341/TK/51333</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Hasil Web Map-->
+        <section class="page-section bg-light" id="webmap">
+            <h1 style="text-align: center;">Hasil Web Map</h1>
+            <div class="iframe-container">
+                <iframe src="https://ruthnad31.github.io/PROJECT_SIGWEB/" frameborder="0" style="border:0; width: 50%; height: 290px;" allowfullscreen></iframe>
+              </div>
+    <div class="button-container">
+        <!-- Tombol dengan fungsi onclick -->
+        <button class="custom-button" id = "tomb" onclick="navigateToEmbeddedWeb()">Lihat Peta</button>
+          </div>
+<script>
+    function navigateToEmbeddedWeb() {
+    // Mengganti lokasi (URL) dengan URL web yang di-embed
+    window.location.href = "https://ruthnad31.github.io/PROJECT_SIGWEB/";
+  }
+    </script>
+
+        </section>
+
+
+        
+        <!--Section Rekomendasi-->
+        <section  id="rekomendasi">
+        <div class="row">
+        <div class="kiri">
+            <h2 class="section-heading text-uppercase" style="text-align: center;">Rekomendasi</h2>
+            <p>Pilihlah salah satu menu yang Anda inginkan. Kami akan memberikan rekomendasi tempat makan untuk Anda</p>
+<form>
+  <input type="radio" name="kalimat" value="menu1"> Magelangan
+  <br>
+  <input type="radio" name="kalimat" value="menu6"> Magelangan Rendang
+  <br>
+  <input type="radio" name="kalimat" value="menu2"> Mie Dok-Dok
+  <br>
+  <input type="radio" name="kalimat" value="menu3"> Nasi Ati Ampela
+  <br>
+  <input type="radio" name="kalimat" value="menu4"> Nasi Orak-Arik
+  <br>
+  <input type="radio" name="kalimat" value="menu5"> Nasi Goreng Surabaya
+  <br>
+  <input type="radio" name="kalimat" value="menu7">Martabak Indomie Goreng
+  <br>
+  <input type="radio" name="kalimat" value="menu8">Ayam Geprek
+  <br>
+  <input type="radio" name="kalimat" value="menu9">Nasi Telur Ceplok
+  <br>
+  <input type="radio" name="kalimat" value="menu10">Nasi Telur Tempe Goreng
+  <br>
+  <input type="radio" name="kalimat" value="menu11">Nasi dengan Jamur Crispy
+  <br>
+  <input type="radio" name="kalimat" value="menu12">Bubur Ayam Jakarta
+  <br>
+  <input type="radio" name="kalimat" value="menu13">Burjo
+  <br>
+  <input type="radio" name="kalimat" value="menu14">Nasi Orak-Arik Telor Jamur
+  <br>
+  <input type="radio" name="kalimat" value="menu15">Nasi Paru
+  <br>
+  <input type="radio" name="kalimat" value="menu16">Nasi Padang Telur Dadar
+</form>
+
+<p id="hasil"></p>
+<script>
+  // Fungsi ini akan dipanggil saat salah satu radio button dipilih
+  function tampilkanKalimat() {
+    var pilihan = document.querySelector('input[name="kalimat"]:checked');
+    if (pilihan) {
+      var hasilElement = document.getElementById("hasil");
+      var kalimat = pilihan.value;
+      // Menggunakan switch untuk menampilkan kalimat berbeda berdasarkan pilihan
+      switch (kalimat) {
+        case "menu1":
+          hasilElement.textContent = "Rekomendasi Tempat Makan = Warmindo Burjo Berkah Pamungkas, Warmindo Maharasa 33";
+          break;
+        case "menu2":
+          hasilElement.textContent = "Rekomendasi Tempat Makan = Warmindo Kabita, Warmindo Mekar Mulya";
+          break;
+        case "menu3":
+          hasilElement.textContent = "Rekomendasi Tempat Makan = Warmindo Kabita";
+          break;
+          case "menu4":
+          hasilElement.textContent = "Rekomendasi Tempat Makan = Warmindo Maharasa 33, Warmindo Mekar Jaya, Warmindo Mekar Mulya, Warmindo Sami Asih";
+          break;
+          case "menu5":
+          hasilElement.textContent = "Rekomendasi Tempat Makan = Warmindo Makcik";
+          break;
+          case "menu6":
+          hasilElement.textContent = "Rekomendasi Tempat Makan = Warmindo Malatax";
+          break;
+          case "menu7":
+          hasilElement.textContent = "Rekomendasi Tempat Makan = Warmindo Palm Kuning";
+          break;
+          case "menu8":
+          hasilElement.textContent = "Rekomendasi Tempat Makan = Warmindo Pamungkas, Warmindo Sami Asih";
+          break;
+          case "menu9":
+          hasilElement.textContent = "Rekomendasi Tempat Makan = Warmindo Pamungkas";
+          break;
+          case "menu10":
+          hasilElement.textContent = "Rekomendasi Tempat Makan = Warmindo Permata";
+          break;
+          case "menu11":
+          hasilElement.textContent = "Rekomendasi Tempat Makan = Warmindo Prikitiuw 06";
+          break;
+          case "menu12":
+          hasilElement.textContent = "Rekomendasi Tempat Makan = Warmindo Raja Rasa 30";
+          break;
+          case "menu13":
+          hasilElement.textContent = "Rekomendasi Tempat Makan = Warmindo Raja Rasa 30";
+          break;
+          case "menu14":
+          hasilElement.textContent = "Rekomendasi Tempat Makan = Warmindo Sami Asih";
+          break;
+          case "menu15":
+          hasilElement.textContent = "Rekomendasi Tempat Makan = RM. Padang Djuang";
+          break;
+          case "menu16":
+          hasilElement.textContent = "Rekomendasi Tempat Makan = RM. Padang Djuang";
+          break;
+        default:
+          hasilElement.textContent = "";
+      }
+    }
+  }
+  
+  // Tambahkan event listener untuk mendeteksi perubahan pada radio button
+  var radioButtons = document.querySelectorAll('input[name="kalimat"]');
+  radioButtons.forEach(function(radio) {
+    radio.addEventListener("change", tampilkanKalimat);
+  });
+</script>
+        </div>
+        <div class ="kanan">
+            <iframe src="foto_slide/index.html"></iframe>
+        </div>
+        </section>
+        <div class="foottext">
+        <section id="footer">
+            
+            <h2 style='color: green;' class="typewrite text-white" data-period="1000" data-type='[ "Namanya warung makan indomie", 
+            "Tetapi menu sangat beragam","Jangan sering makan instant mie", "Agar kesehatanmu tidak wasalam ^_^" ]'>
+                <span class="wrap">WARMINDO</span>
+            </h2>
+            <script>
+              var TxtType = function(el, toRotate, period) {
+              this.toRotate = toRotate;
+              this.el = el;
+              this.loopNum = 0;
+              this.period = parseInt(period, 10) || 500;
+              this.txt = '';
+              this.tick();
+              this.isDeleting = false;
+              };
+              
+              TxtType.prototype.tick = function() {
+              var i = this.loopNum % this.toRotate.length;
+              var fullTxt = this.toRotate[i];
+              
+              if (this.isDeleting) {
+              this.txt = fullTxt.substring(0, this.txt.length - 1);
+              } else {
+              this.txt = fullTxt.substring(0, this.txt.length + 1);
+              }
+              
+              this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+              
+              var that = this;
+              var delta = 200 - Math.random() * 100;
+              
+              if (this.isDeleting) { delta /= 2; }
+              
+              if (!this.isDeleting && this.txt === fullTxt) {
+              delta = this.period;
+              this.isDeleting = true;
+              } else if (this.isDeleting && this.txt === '') {
+              this.isDeleting = false;
+              this.loopNum++;
+              delta = 500;
+              }
+              
+              setTimeout(function() {
+              that.tick();
+              }, delta);
+              };
+              
+              window.onload = function() {
+              var elements = document.getElementsByClassName('typewrite');
+              for (var i=0; i<elements.length; i++) {
+              var toRotate = elements[i].getAttribute('data-type');
+              var period = elements[i].getAttribute('data-period');
+              if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+              }
+              }
+              // INJECT CSS
+              var css = document.createElement("style");
+              css.type = "text/css";
+              css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+              document.body.appendChild(css);
+              };
+          </script>
+          
+        </section>
+    </div>
+        <!-- Bagian Anggota Kelompok 1-->
+        
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Profil Anggota Detail-->
+                                    <h2 class="text-uppercase">Profil Anggota Kelompok</h2>
+                                    <p class="item-intro text-muted">Rivaldo Putra (NIM: 21/473944/TK/52260)</p>
+                                    <button onclick="cv()"><a href="https://rivaldoputra110802.github.io/cvAldo/">Klik menuju CV</a></button>
+                                    <p>Kontribusi Kerja Kelompok untuk <i>mini project</i> UTS Praktikum SIG Bersbasis Web ini yaitu</p>
+                                    <li style="text-align: left;">Membuat Project QGIS untuk ditambahkan ke Mergin</li>
+                                    <li style="text-align: left;">Membuat Landing Page</li>
+                                    <li style="text-align: left;">Melakukan Akuisisi Data atau Survei dengan Aplikasi Mergin Maps</li>
+                                    <li style="text-align: left;">Membuat laporan praktikum</li>
+                                    <br>
+                                    <a href ='https://www.instagram.com/rivaldoputra110802/'><img src="https://th.bing.com/th/id/OIP.btJ_zWonHgZro7pPX1yPMAHaHa?pid=ImgDet&rs=1" style="width:30px"></a>
+                                    <br>
+                                    
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Kembali ke Landing Page
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Bagian Anggota Kelompok 2-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!--Profil Anggota Detail-->
+                                    <h2 class="text-uppercase">Profil Anggota Kelompok</h2>
+                                    <p class="item-intro text-muted">Ruth Nadya Putri Nugroho (NIM: 21/474384/TK/52338)</p>
+                                    <button onclick="cv()"><a href="https://ruthnad31.github.io/M4_Bootstrap/">Klik menuju CV</a></button>
+                                    <p>Kontribusi Kerja Kelompok untuk <i>mini project</i> UTS Praktikum SIG Bersbasis Web ini yaitu</p>
+                                    <li style="text-align: left;">Membuat Project QGIS untuk ditambahkan ke Mergin</li>
+                                    <li style="text-align: left;">Membuat Bootstrap dan Web Map</li>
+                                    <li style="text-align: left;">Melakukan Akuisisi Data atau Survei dengan Aplikasi Mergin Maps</li>
+                                    <li style="text-align: left;">Membuat laporan praktikum</li>
+                                    <br>
+                                    <a href ='https://www.instagram.com/ruthnadyaputri/'><img src="https://th.bing.com/th/id/OIP.btJ_zWonHgZro7pPX1yPMAHaHa?pid=ImgDet&rs=1" style="width:30px"></a>
+                                    <br>
+    
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Kembali ke Landing Page
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Bagian Anggota Kelompok 3-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!--Profil Anggota Detail-->
+                                    <h2 class="text-uppercase">Profil Anggota Kelompok</h2>
+                                    <p class="item-intro text-muted">Wanda Wuri Handayani (NIM: 20/463341/TK/51333)</p>
+                                    <button onclick="cv()"><a href="https://wandawh.wixsite.com/wanda-wuri-h">Klik menuju CV</a></button>
+                                    <p>Kontribusi Kerja Kelompok untuk <i>mini project</i> UTS Praktikum SIG Bersbasis Web ini yaitu</p>
+                                    <li style="text-align: left;">Membuat Project QGIS untuk ditambahkan ke Mergin</li>
+                                    <li style="text-align: left;">Melakukan Akuisisi Data atau Survei dengan Aplikasi Mergin Maps</li>
+                                    <li style="text-align: left;">Membuat laporan praktikum</li>
+                                    <br>
+                                    <a href ='https://www.instagram.com/wandawwr/?next=%2F'><img src="https://th.bing.com/th/id/OIP.btJ_zWonHgZro7pPX1yPMAHaHa?pid=ImgDet&rs=1" style="width:30px"></a>
+                                    <br>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        KEMBALI KE LANDING PAGE
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
